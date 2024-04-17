@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
+    "target": "es5",
     "module": "commonjs",
-    "moduleResolution": "node",
-    "pretty": true,
-    "resolveJsonModule": true,
-    "sourceMap": true,
-    "target": "es2021",
-    "outDir": "./dist",
-    "baseUrl": "./src",
-    "experimentalDecorators": true,
-    "strict": true
+    "lib": ["es6"],
+    "allowJs": true,
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "src/**/*.spec.ts"]
